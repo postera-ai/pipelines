@@ -20,7 +20,7 @@ from typing import Any, Dict, Mapping, Optional, Sequence, Union
 
 from kfp.components import _components
 from kfp.components import structures as v1_structures
-import pydantic
+import pydantic.v1 as pydantic
 import yaml
 
 
